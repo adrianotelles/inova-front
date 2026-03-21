@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@plugin "daisyui" {
+  themes: lofi --default;
+}
+
+* {
+  font-family: "Archivo", sans-serif;
+}

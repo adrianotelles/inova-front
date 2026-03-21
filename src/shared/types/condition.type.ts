@@ -1,0 +1,1 @@
+export type Condition = "<" | "<=" | "==" | ">" | ">=" | "!=" | "array-contains" | "array-contains-any" | "in" | "not-in";
