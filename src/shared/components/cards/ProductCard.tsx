@@ -12,6 +12,7 @@ const ProductCard = (product: ProductModel) => {
                 {
                     product.photo &&
                     <img
+                        loading="lazy"
                         src={product.photo}
                         className="w-full h-full object-cover object-center"
                         alt={product.title} />
