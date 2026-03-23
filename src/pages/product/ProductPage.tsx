@@ -49,8 +49,11 @@ const ProductPage = () => {
     return (
         <>
             <Helmet>
-                <title>Catálogo de Peças | Inova Peças</title>
-                <meta name="description" content="Peças para tratores, caminhões e máquinas pesadas com qualidade e agilidade. Consulte compatibilidade e compre na Inova Peças." />
+                <title>Peças para Caminhões e Máquinas Pesadas | Inova Peças</title>
+                <meta
+                    name="description"
+                    content="Confira nosso catálogo completo de peças para caminhões, tratores e máquinas pesadas com os melhores preços."
+                />
                 <link rel="canonical" href="https://inova-pecas.com/" />
             </Helmet>
             <section className="container mx-auto">
