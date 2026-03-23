@@ -65,7 +65,7 @@ const BudgetPage = () => {
     return (
         <>
             <Helmet>
-                <title>Peças para Caminhões e Máquinas Pesadas | Inova Peças</title>
+                <title>Peças para Caminhões e Máquinas Pesadas | Inova Peças de Máquinas Pesadas</title>đ
                 <meta name="description" content="Peças para tratores, caminhões e máquinas pesadas com qualidade e agilidade. Consulte compatibilidade e compre na Inova Peças." />
                 <link rel="canonical" href="https://inova-pecas.com/" />
             </Helmet>
