@@ -7,9 +7,9 @@ const HomePage = () => {
   return (
     <>
       <Helmet>
-        <title>Home - INOVA</title>
-        <meta name="description" content="Consulte compatibilidade e especificações." />
-        <link rel="canonical" href="https://inova-pecas.web.app/home" />
+        <title>Peças para Caminhões e Máquinas Pesadas | Inova Peças</title>
+        <meta name="description" content="Peças para tratores, caminhões e máquinas pesadas com qualidade e agilidade. Consulte compatibilidade e compre na Inova Peças." />
+        <link rel="canonical" href="https://inova-pecas.com/" />
       </Helmet>
       <Banner />
       <Choose />

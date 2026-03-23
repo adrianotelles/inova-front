@@ -49,9 +49,9 @@ const ProductPage = () => {
     return (
         <>
             <Helmet>
-                <title>Catálogo de Peças - INOVA</title>
-                <meta name="description" content="Consulte compatibilidade e especificações." />
-                <link rel="canonical" href="https://inova-pecas.web.app/produtos" />
+                <title>Catálogo de Peças | Inova Peças</title>
+                <meta name="description" content="Peças para tratores, caminhões e máquinas pesadas com qualidade e agilidade. Consulte compatibilidade e compre na Inova Peças." />
+                <link rel="canonical" href="https://inova-pecas.com/" />
             </Helmet>
             <section className="container mx-auto">
                 <h1 className="lg:text-4xl font-semibold border-b pb-5 pt-10 border-b-neutral-300 mb-15 lg:px-0 px-5 text-2xl">
