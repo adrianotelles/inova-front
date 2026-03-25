@@ -6,7 +6,7 @@ const ProductCard = (product: ProductModel) => {
     return (
         <a
             className="card bg-base-100 shadow-sm"
-            href={openWhats(`Quero fazer um orçamento da peça ${product.title}`)}
+            href={openWhats(`Quero fazer um orçamento da peça ${product.title}`, "15997104217")}
             target='_blank'>
             <figure className="w-full object-cover h-60">
                 {

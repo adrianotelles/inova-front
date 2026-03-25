@@ -14,8 +14,6 @@ const Doubt = ({ isBorder }: { isBorder: boolean }) => {
                             </div>
                         </div>
                     }
-
-
                     {
                         !isBorder &&
                         <h2 className="card-title text-3xl lg:text-4xl font-bold text-primary">Dúvidas?</h2>
@@ -24,8 +22,6 @@ const Doubt = ({ isBorder }: { isBorder: boolean }) => {
                             Não encontrou a peça que procurava?
                         </h2>
                     }
-
-
                     <div className="space-y-4 my-6 max-w-2xl">
                         {
                             !isBorder &&
@@ -48,7 +44,7 @@ const Doubt = ({ isBorder }: { isBorder: boolean }) => {
 
                     <div className="card-actions justify-center mt-8">
                         <a
-                            href={openWhats('Gostaria de falar com um consultor')}
+                            href={openWhats('Gostaria de falar com um consultor', "15997104217")}
                             target="_blank"
                             className="btn btn-primary btn-lg gap-2 rounded-lg"
                         >

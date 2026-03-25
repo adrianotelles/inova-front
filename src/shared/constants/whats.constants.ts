@@ -1,5 +1,5 @@
-const openWhats = (message: string) => {
-    return `https://wa.me/5515998290518?text=${message}`;
+const openWhats = (message: string, number: string) => {
+    return `https://wa.me/55${number}?text=${message}`;
 };
 
-export default openWhats;;
+export default openWhats;

@@ -1,6 +1,7 @@
 import ToastContext from '@context/toast.context';
 import { InstagramLogoIcon, PhoneIcon } from '@phosphor-icons/react';
 import { BudgetService } from '@services/budget.service';
+import openWhats from '@shared/constants/whats.constants';
 import { useContext, useState } from 'react';
 import { NavLink } from 'react-router';
 
@@ -29,6 +30,10 @@ const Footer = () => {
     }
   }
 
+  const handleWhats = () => {
+    window.open(openWhats("Gostaria de fazer um orçameneto", "15997104217"), "_blank");
+  }
+
   return (
     <footer className="bg-black text-white mt-10">
       <div className="container mx-auto px-4 lg:px-8 py-12">
@@ -40,7 +45,7 @@ const Footer = () => {
                 <PhoneIcon size={18} className="text-red-500 mt-0.5" />
                 <div>
                   <p className="text-gray-400">Whatsapp</p>
-                  <p className="text-white font-semibold">(15) 99710-4217</p>
+                  <p className="text-white font-semibold cursor-pointer" onClick={handleWhats}>(15) 99710-4217</p>
                 </div>
               </div>
               <div className="text-gray-400 mt-2">

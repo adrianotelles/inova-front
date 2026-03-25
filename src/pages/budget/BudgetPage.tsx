@@ -104,7 +104,7 @@ const BudgetPage = () => {
                                 <div className="flex w-full flex-col">
                                     <div className="divider">OU</div>
                                 </div>
-                                <a href={openWhats('Gostaria de fazer um orçamento')} target="_blank" className="btn btn-success w-full py-7 rounded-lg">
+                                <a href={openWhats('Gostaria de fazer um orçamento', "15997104217")} target="_blank" className="btn btn-success w-full py-7 rounded-lg">
                                     Falar no whatsapp
                                 </a>
                             </div>
