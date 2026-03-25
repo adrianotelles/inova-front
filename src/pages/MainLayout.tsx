@@ -5,17 +5,17 @@ import ToastProvider from "@providers/toast.provider"
 
 export const MainLayout = () => {
     return (
-        <div className="min-h-screen flex flex-col">
-            <header>
-                <Header />
-            </header>
-            <main className="mt-15 flex-1">
-                <ToastProvider>
+        <ToastProvider>
+            <div className="min-h-screen flex flex-col">
+                <header>
+                    <Header />
+                </header>
+                <main className="mt-15 flex-1">
                     <ScrollRestoration />
                     <Outlet />
-                </ToastProvider>
-            </main>
-            <Footer />
-        </div>
+                </main>
+                <Footer />
+            </div >
+        </ToastProvider >
     )
 }

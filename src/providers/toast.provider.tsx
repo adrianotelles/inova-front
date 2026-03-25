@@ -27,8 +27,6 @@ const ToastProvider = ({ children }: { children: ReactNode }) => {
                     type: '',
                     message: ''
                 });
-
-                console.log(toast.type)
             }, 4000);
         }
     }, [toast]);
