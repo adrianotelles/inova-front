@@ -2,11 +2,12 @@ import ToastContext from '@context/toast.context';
 import { InstagramLogoIcon, PhoneIcon } from '@phosphor-icons/react';
 import { BudgetService } from '@services/budget.service';
 import openWhats from '@shared/constants/whats.constants';
+import { format } from 'date-fns';
 import { useContext, useState } from 'react';
 import { NavLink } from 'react-router';
 
 const budget = new BudgetService();
-
+const date = format(new Date(), 'dd/MM/yyyy');
 const Footer = () => {
   const [email, setEmail] = useState<string>("");
   const { onToast } = useContext(ToastContext);
@@ -17,7 +18,7 @@ const Footer = () => {
         email,
         phoneNumber: '',
         description: 'Gostaria de receber novidades e promoções exclusivas',
-        createdAt: new Date()
+        createdAt: date
       }
 
       await budget.set(data);
